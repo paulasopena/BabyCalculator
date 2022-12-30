@@ -7,4 +7,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="bg_color">#040507</color>
+    <color name="bg_card_color">#423F5B</color>
+    <color name="icon_bg_color">#874FD0</color>
+
+    <color name="pastelRed">#FFCCBC</color>
+    <color name="pastelOrange">#FFCC80</color>
+    <color name="pastelYellow">#FFF59D</color>
+    <color name="pastelGreen">#E6EE9C</color>
+    <color name="pastelBlue">#80DEEA</color>
+    <color name="pastelPurple">#D1C4E9</color>
+
+    <color name="yellow">#FFC107</color>
 </resources>
