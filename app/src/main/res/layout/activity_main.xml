@@ -12,7 +12,7 @@
         android:id="@+id/Edit_Title_Update"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="80dp"
         android:inputType="text"
         android:text="@string/result"
         android:textAlignment="center"
@@ -40,11 +40,11 @@
         android:id="@+id/buttonFour"
         android:layout_width="116dp"
         android:layout_height="114dp"
+        android:backgroundTint="@color/pastelYellow"
         android:onClick="Four"
         android:text="4"
         android:textColor="@color/black"
         android:textSize="34sp"
-        android:backgroundTint="@color/pastelYellow"
         app:layout_constraintStart_toStartOf="@+id/buttonSeven"
         app:layout_constraintTop_toBottomOf="@+id/buttonSeven" />
 
@@ -52,11 +52,12 @@
         android:id="@+id/buttonMinus"
         android:layout_width="116dp"
         android:layout_height="114dp"
+        android:backgroundTint="@color/pastelOrange"
         android:lineSpacingExtra="48sp"
         android:onClick="Minus"
         android:text="-"
+        android:textColor="@color/black"
         android:textSize="48sp"
-        android:backgroundTint="@color/pastelOrange"
         app:layout_constraintStart_toEndOf="@+id/buttonNine"
         app:layout_constraintTop_toTopOf="@+id/buttonNine" />
 
@@ -64,11 +65,11 @@
         android:id="@+id/buttonNine"
         android:layout_width="116dp"
         android:layout_height="114dp"
+        android:backgroundTint="@color/pastelRed"
         android:onClick="Nine"
         android:text="9"
         android:textColor="@color/black"
         android:textSize="34sp"
-        android:backgroundTint="@color/pastelRed"
         app:layout_constraintStart_toEndOf="@+id/buttonEight"
         app:layout_constraintTop_toTopOf="@+id/buttonEight" />
 
@@ -76,10 +77,10 @@
         android:id="@+id/buttonFive"
         android:layout_width="116dp"
         android:layout_height="114dp"
+        android:backgroundTint="@color/pastelGreen"
         android:onClick="Five"
         android:text="5"
         android:textColor="@color/black"
-        android:backgroundTint="@color/pastelGreen"
         android:textSize="34sp"
         app:layout_constraintStart_toEndOf="@+id/buttonFour"
         app:layout_constraintTop_toBottomOf="@+id/buttonEight" />
@@ -88,10 +89,10 @@
         android:id="@+id/buttonSix"
         android:layout_width="116dp"
         android:layout_height="114dp"
+        android:backgroundTint="@color/pastelBlue"
         android:onClick="Six"
         android:text="6"
         android:textColor="@color/black"
-        android:backgroundTint="@color/pastelBlue"
         android:textSize="34sp"
         app:layout_constraintStart_toEndOf="@+id/buttonFive"
         app:layout_constraintTop_toTopOf="@+id/buttonFive" />
@@ -100,10 +101,10 @@
         android:id="@+id/buttonEight"
         android:layout_width="116dp"
         android:layout_height="114dp"
+        android:backgroundTint="@color/pastelPurple"
         android:onClick="Eight"
         android:text="8"
         android:textColor="@color/black"
-        android:backgroundTint="@color/pastelPurple"
         android:textSize="34sp"
         app:layout_constraintStart_toEndOf="@+id/buttonSeven"
         app:layout_constraintTop_toBottomOf="@+id/buttonClear" />
@@ -112,10 +113,10 @@
         android:id="@+id/buttonThird"
         android:layout_width="116dp"
         android:layout_height="114dp"
+        android:backgroundTint="@color/pastelYellow"
         android:onClick="Three"
         android:text="3"
         android:textColor="@color/black"
-        android:backgroundTint="@color/pastelYellow"
         android:textSize="34sp"
         app:layout_constraintStart_toEndOf="@+id/buttonSecond"
         app:layout_constraintTop_toBottomOf="@+id/buttonFive" />
@@ -124,10 +125,10 @@
         android:id="@+id/buttonSecond"
         android:layout_width="116dp"
         android:layout_height="114dp"
+        android:backgroundTint="@color/pastelOrange"
         android:onClick="Two"
         android:text="2"
         android:textColor="@color/black"
-        android:backgroundTint="@color/pastelOrange"
         android:textSize="34sp"
         app:layout_constraintStart_toEndOf="@+id/ButtonFirst"
         app:layout_constraintTop_toBottomOf="@+id/buttonFive" />
@@ -136,10 +137,10 @@
         android:id="@+id/buttonErase"
         android:layout_width="116dp"
         android:layout_height="114dp"
-        android:onClick="ClearOne"
-        android:text="⌫"
-        android:textColor="@color/black"
         android:backgroundTint="@color/pastelGreen"
+        android:text="π"
+        android:onClick="Pi"
+        android:textColor="@color/black"
         android:textSize="48sp"
         app:layout_constraintStart_toEndOf="@+id/buttonPlus"
         app:layout_constraintTop_toTopOf="@+id/buttonPlus" />
@@ -148,9 +149,9 @@
         android:id="@+id/buttonPlus"
         android:layout_width="116dp"
         android:layout_height="114dp"
+        android:backgroundTint="@color/pastelYellow"
         android:onClick="Multiply"
         android:text="x"
-        android:backgroundTint="@color/pastelYellow"
         android:textColor="@color/black"
         android:textSize="34sp"
         app:layout_constraintStart_toEndOf="@+id/buttonDivide"
@@ -159,11 +160,11 @@
     <Button
         android:id="@+id/buttonThird4"
         android:layout_width="116dp"
-        android:layout_height="228dp"
+        android:layout_height="337dp"
+        android:backgroundTint="@color/pastelGreen"
         android:onClick="Equal"
         android:text="="
         android:textColor="@color/black"
-        android:backgroundTint="@color/pastelGreen"
         android:textSize="60sp"
         app:layout_constraintStart_toEndOf="@+id/buttonThird"
         app:layout_constraintTop_toBottomOf="@+id/buttonSix" />
@@ -172,23 +173,23 @@
         android:id="@+id/buttonSum"
         android:layout_width="116dp"
         android:layout_height="114dp"
+        android:backgroundTint="@color/pastelPurple"
         android:onClick="Sum"
         android:text="+"
         android:textColor="@color/black"
-        android:backgroundTint="@color/pastelPurple"
         android:textSize="48sp"
-        app:strokeColor="@color/black"
         app:layout_constraintStart_toEndOf="@+id/buttonSix"
-        app:layout_constraintTop_toBottomOf="@+id/buttonNine" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonNine"
+        app:strokeColor="@color/black" />
 
     <Button
         android:id="@+id/buttonSeven"
         android:layout_width="116dp"
         android:layout_height="114dp"
+        android:backgroundTint="@color/pastelBlue"
         android:onClick="Seven"
         android:text="7"
         android:textColor="@color/black"
-        android:backgroundTint="@color/pastelBlue"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="@+id/buttonClear"
         app:layout_constraintTop_toBottomOf="@+id/buttonClear" />
@@ -197,10 +198,10 @@
         android:id="@+id/ButtonFirst"
         android:layout_width="116dp"
         android:layout_height="114dp"
+        android:backgroundTint="@color/pastelRed"
         android:onClick="One"
         android:text="1"
         android:textColor="@color/black"
-        android:backgroundTint="@color/pastelRed"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="@+id/buttonFour"
         app:layout_constraintTop_toBottomOf="@+id/buttonFour" />
@@ -209,10 +210,10 @@
         android:id="@+id/buttonDivide"
         android:layout_width="116dp"
         android:layout_height="114dp"
+        android:backgroundTint="@color/pastelOrange"
         android:onClick="Divide"
         android:text="÷"
         android:textColor="@color/black"
-        android:backgroundTint="@color/pastelOrange"
         android:textSize="60sp"
         app:layout_constraintStart_toEndOf="@+id/buttonClear"
         app:layout_constraintTop_toTopOf="@+id/buttonClear" />
@@ -221,36 +222,95 @@
         android:id="@+id/buttonZero"
         android:layout_width="116dp"
         android:layout_height="114dp"
+        android:backgroundTint="@color/pastelPurple"
         android:onClick="Zero"
         android:text="0"
         android:textColor="@color/black"
-        android:backgroundTint="@color/pastelPurple"
         android:textSize="34sp"
         app:layout_constraintStart_toEndOf="@+id/buttonPercentage"
         app:layout_constraintTop_toBottomOf="@+id/ButtonFirst" />
 
     <Button
+        android:id="@+id/buttonCosinus"
+        android:layout_width="116dp"
+        android:layout_height="114dp"
+        android:backgroundTint="@color/pastelGreen"
+        android:onClick="Cosinus"
+        android:text="cos"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/buttonSinus"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPercentage" />
+
+    <Button
         android:id="@+id/buttonPercentage"
         android:layout_width="116dp"
         android:layout_height="114dp"
-        android:onClick="Percentage"
-        android:text="%"
-        android:textColor="@color/black"
         android:backgroundTint="@color/pastelBlue"
+        android:text="☺"
+        android:textColor="@color/black"
         android:textSize="48sp"
         app:layout_constraintStart_toStartOf="@+id/ButtonFirst"
         app:layout_constraintTop_toBottomOf="@+id/ButtonFirst" />
 
     <Button
+        android:id="@+id/buttonSinus"
+        android:layout_width="116dp"
+        android:layout_height="114dp"
+        android:backgroundTint="@color/pastelYellow"
+        android:onClick="Sinus"
+        android:text="sin"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/buttonPercentage"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPercentage" />
+
+    <Button
         android:id="@+id/buttonSecond7"
         android:layout_width="116dp"
         android:layout_height="114dp"
+        android:backgroundTint="@color/pastelRed"
         android:onClick="Comma"
         android:text=","
         android:textColor="@color/black"
-        android:backgroundTint="@color/pastelRed"
         android:textSize="60sp"
         app:layout_constraintStart_toEndOf="@+id/buttonZero"
         app:layout_constraintTop_toBottomOf="@+id/buttonSecond" />
+
+    <Button
+        android:id="@+id/buttonTangent"
+        android:layout_width="116dp"
+        android:layout_height="114dp"
+        android:backgroundTint="@color/pastelBlue"
+        android:onClick="Tangent"
+        android:text="tan"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/buttonCosinus"
+        app:layout_constraintTop_toTopOf="@+id/buttonCosinus" />
+
+    <Switch
+        android:id="@+id/radiansSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:onClick="setRadians"
+        android:text="Radians"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/degreeSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="setDegrees"
+        android:text="Degrees"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/radiansSwitch"
+        app:layout_constraintTop_toBottomOf="@+id/radiansSwitch"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
